@@ -41,4 +41,11 @@ jobs:
           BROWSER_HEADLESS: ${{ env.BROWSER_HEADLESS }}
         run: |
           echo "开始执行二进制文件..."
+          echo "DATABASE_URL: $DATABASE_URL"
+          echo "DOMAIN: $DOMAIN"
+          echo "TEMP_MAIL: $TEMP_MAIL"
+          echo "TEMP_MAIL_EPIN: $TEMP_MAIL_EPIN"
+          echo "TEMP_MAIL_EXT: $TEMP_MAIL_EXT"
+          echo "BROWSER_USER_AGENT: $BROWSER_USER_AGENT"
+          echo "BROWSER_HEADLESS: $BROWSER_HEADLESS"    
           .\cursorWork.exe
