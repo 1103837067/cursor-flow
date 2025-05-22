@@ -19,13 +19,13 @@ jobs:
 
       - name: Run binary file
         env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
-          DOMAIN: ${{ secrets.DOMAIN }}
-          TEMP_MAIL: ${{ secrets.TEMP_MAIL }}
-          TEMP_MAIL_EPIN: ${{ secrets.TEMP_MAIL_EPIN }}
-          TEMP_MAIL_EXT: ${{ secrets.TEMP_MAIL_EXT }}
-          BROWSER_USER_AGENT: ${{ secrets.BROWSER_USER_AGENT }}
-          BROWSER_HEADLESS: ${{ secrets.BROWSER_HEADLESS }}
+          DATABASE_URL: ${{vars.DATABASE_URL}}
+          DOMAIN: ${{vars.DOMAIN}}
+          TEMP_MAIL: ${{vars.TEMP_MAIL}}
+          TEMP_MAIL_EPIN: ${{vars.TEMP_MAIL_EPIN}}
+          TEMP_MAIL_EXT: ${{vars.TEMP_MAIL_EXT}}
+          BROWSER_USER_AGENT: ${{vars.BROWSER_USER_AGENT}}
+          BROWSER_HEADLESS: ${{ vars.BROWSER_HEADLESS }}
         run: |
           echo "开始执行二进制文件..."
           echo "DATABASE_URL: $DATABASE_URL"

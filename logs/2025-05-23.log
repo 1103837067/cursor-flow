@@ -1,0 +1,78 @@
+2025-05-23 02:02:08,932 - INFO - 日志系统初始化，日志目录: D:\projects\cursor-git-work\logs
+2025-05-23 02:02:09,698 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Using proactor: IocpProactor
+2025-05-23 02:02:09,760 - INFO - 数据库引擎创建成功
+2025-05-23 02:02:13,853 - ERROR - 创建Schema时出错: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-23 02:02:17,899 - ERROR - 数据库初始化失败: [WinError 1225] 远程计算机拒绝网络连接。
+2025-05-23 02:02:17,903 - ERROR - 数据库初始化失败，账号信息将不会被保存: [WinError 1225] 远程计算机拒绝网络连接。
+2025-05-23 02:02:17,907 - INFO - 
+=== 初始化程序 ===
+2025-05-23 02:02:17,918 - INFO - 正在初始化浏览器...
+2025-05-23 02:02:18,366 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:02:18,366 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:02:18,366 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Starting new HTTP connection (1): 127.0.0.1:24977
+2025-05-23 02:02:18,881 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] http://127.0.0.1:24977 "GET /json HTTP/1.1" 200 1539
+2025-05-23 02:02:18,882 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:02:18,882 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:02:18,882 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Starting new HTTP connection (1): 127.0.0.1:24977
+2025-05-23 02:02:18,883 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] http://127.0.0.1:24977 "GET /json/version HTTP/1.1" 200 432
+2025-05-23 02:02:18,888 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:02:18,889 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:02:18,889 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Starting new HTTP connection (1): 127.0.0.1:24977
+2025-05-23 02:02:18,891 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] http://127.0.0.1:24977 "GET /json HTTP/1.1" 200 1539
+2025-05-23 02:02:18,891 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:02:18,891 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:02:18,892 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Starting new HTTP connection (1): 127.0.0.1:24977
+2025-05-23 02:02:18,893 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] http://127.0.0.1:24977 "GET /json HTTP/1.1" 200 1539
+2025-05-23 02:03:08,869 - INFO - 日志系统初始化，日志目录: D:\projects\cursor-git-work\logs
+2025-05-23 02:03:09,535 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Using proactor: IocpProactor
+2025-05-23 02:03:09,590 - INFO - 数据库引擎创建成功
+2025-05-23 02:03:13,700 - ERROR - 创建Schema时出错: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-23 02:03:17,757 - ERROR - 数据库初始化失败: [WinError 1225] 远程计算机拒绝网络连接。
+2025-05-23 02:03:17,757 - ERROR - 数据库初始化失败，账号信息将不会被保存: [WinError 1225] 远程计算机拒绝网络连接。
+2025-05-23 02:03:17,759 - INFO - 
+=== 初始化程序 ===
+2025-05-23 02:03:17,759 - INFO - 正在初始化浏览器...
+2025-05-23 02:03:18,175 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:03:18,175 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:03:18,175 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Starting new HTTP connection (1): 127.0.0.1:28792
+2025-05-23 02:03:18,897 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] http://127.0.0.1:28792 "GET /json HTTP/1.1" 200 1539
+2025-05-23 02:03:18,898 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:03:18,898 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:03:18,898 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Starting new HTTP connection (1): 127.0.0.1:28792
+2025-05-23 02:03:18,899 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] http://127.0.0.1:28792 "GET /json/version HTTP/1.1" 200 432
+2025-05-23 02:03:18,902 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:03:18,903 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:03:18,903 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Starting new HTTP connection (1): 127.0.0.1:28792
+2025-05-23 02:03:18,904 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] http://127.0.0.1:28792 "GET /json HTTP/1.1" 200 1539
+2025-05-23 02:03:18,904 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:03:18,905 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:03:18,905 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Starting new HTTP connection (1): 127.0.0.1:28792
+2025-05-23 02:03:18,906 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] http://127.0.0.1:28792 "GET /json HTTP/1.1" 200 1539
+2025-05-23 02:03:20,364 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:03:20,364 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:03:20,365 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Starting new HTTP connection (1): 127.0.0.1:23674
+2025-05-23 02:03:20,873 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] http://127.0.0.1:23674 "GET /json HTTP/1.1" 200 1539
+2025-05-23 02:03:20,875 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:03:20,875 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:03:20,876 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Starting new HTTP connection (1): 127.0.0.1:23674
+2025-05-23 02:03:20,877 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] http://127.0.0.1:23674 "GET /json/version HTTP/1.1" 200 424
+2025-05-23 02:03:20,880 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:03:20,880 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:03:20,881 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Starting new HTTP connection (1): 127.0.0.1:23674
+2025-05-23 02:03:20,883 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] http://127.0.0.1:23674 "GET /json HTTP/1.1" 200 1539
+2025-05-23 02:03:20,884 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:03:20,884 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-05-23 02:03:20,884 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] Starting new HTTP connection (1): 127.0.0.1:23674
+2025-05-23 02:03:20,885 - DEBUG - [开源项目：https://github.com/chengazhen/cursor-auto-free] http://127.0.0.1:23674 "GET /json HTTP/1.1" 200 1539
+2025-05-23 02:03:20,907 - INFO - Please visit the open source project for more information: https://github.com/chengazhen/cursor-auto-free
+2025-05-23 02:03:20,907 - ERROR - 程序执行出现错误: 文件 D:\projects\cursor-git-work\.env 不存在
