@@ -12,14 +12,6 @@ on:
 jobs:
   run-binary:
     runs-on: windows-latest # 使用Windows运行环境
-    env:
-      DATABASE_URL: ${{ secrets.DATABASE_URL }}
-      DOMAIN: ${{ secrets.DOMAIN }}
-      TEMP_MAIL: ${{ secrets.TEMP_MAIL }}
-      TEMP_MAIL_EPIN: ${{ secrets.TEMP_MAIL_EPIN }}
-      TEMP_MAIL_EXT: ${{ secrets.TEMP_MAIL_EXT }}
-      BROWSER_USER_AGENT: ${{ secrets.BROWSER_USER_AGENT }}
-      BROWSER_HEADLESS: ${{ secrets.BROWSER_HEADLESS }}
 
     steps:
       - name: Checkout repository
@@ -33,7 +25,7 @@ jobs:
       - name: Run binary file
         run: |
           chcp 65001
-          python -c "import sys; sys.stdout.reconfigure(encoding='utf-8')"
+          python -c "import sys, io; sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8'); sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')"
           echo "开始执行二进制文件..."
           echo "DATABASE_URL: $DATABASE_URL"
           echo "DOMAIN: $DOMAIN"
