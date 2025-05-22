@@ -1,0 +1,44 @@
+name: Run Binary File
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch: # 允许手动触发
+  repository_dispatch: # 允许webhook触发
+    types: [run_binary_webhook]
+
+jobs:
+  run-binary:
+    runs-on: windows-latest # 使用Windows运行环境
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup environment
+        run: |
+          echo "正在准备执行环境..."
+          if (Test-Path .env) {
+            Get-Content .env | ForEach-Object {
+              if (-not [string]::IsNullOrWhiteSpace($_)) {
+                $name, $value = $_.split('=', 2)
+                echo "$name=$value" >> $env:GITHUB_ENV
+              }
+            }
+          }
+
+      - name: Run binary file
+        env:
+          # 从GitHub仓库设置中获取环境变量
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          DOMAIN: ${{ secrets.DOMAIN }}
+          TEMP_MAIL: ${{ secrets.TEMP_MAIL }}
+          TEMP_MAIL_EPIN: ${{ secrets.TEMP_MAIL_EPIN }}
+          TEMP_MAIL_EXT: ${{ secrets.TEMP_MAIL_EXT }}
+          BROWSER_USER_AGENT: ${{ secrets.BROWSER_USER_AGENT }}
+          BROWSER_HEADLESS: ${{ secrets.BROWSER_HEADLESS }}
+        run: |
+          echo "开始执行二进制文件..."
+          .\cursorWork.exe
