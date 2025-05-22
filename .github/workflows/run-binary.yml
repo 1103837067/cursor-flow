@@ -32,13 +32,13 @@ jobs:
       - name: Run binary file
         env:
           # 从GitHub仓库设置中获取环境变量
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
-          DOMAIN: ${{ secrets.DOMAIN }}
-          TEMP_MAIL: ${{ secrets.TEMP_MAIL }}
-          TEMP_MAIL_EPIN: ${{ secrets.TEMP_MAIL_EPIN }}
-          TEMP_MAIL_EXT: ${{ secrets.TEMP_MAIL_EXT }}
-          BROWSER_USER_AGENT: ${{ secrets.BROWSER_USER_AGENT }}
-          BROWSER_HEADLESS: ${{ secrets.BROWSER_HEADLESS }}
+          DATABASE_URL: ${{ env.DATABASE_URL }}
+          DOMAIN: ${{ env.DOMAIN }}
+          TEMP_MAIL: ${{ env.TEMP_MAIL }}
+          TEMP_MAIL_EPIN: ${{ env.TEMP_MAIL_EPIN }}
+          TEMP_MAIL_EXT: ${{ env.TEMP_MAIL_EXT }}
+          BROWSER_USER_AGENT: ${{ env.BROWSER_USER_AGENT }}
+          BROWSER_HEADLESS: ${{ env.BROWSER_HEADLESS }}
         run: |
           echo "开始执行二进制文件..."
           .\cursorWork.exe
