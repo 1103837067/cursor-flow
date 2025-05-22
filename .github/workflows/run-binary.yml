@@ -12,6 +12,7 @@ on:
 jobs:
   run-binary:
     runs-on: windows-latest # 使用Windows运行环境
+    environment: production
 
     steps:
       - name: Checkout repository
@@ -27,7 +28,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run 
+      - name: Run
         env:
           BROWSER_HEADLESS: ${{ secrets.BROWSER_HEADLESS }}
           BROWSER_USER_AGENT: ${{ secrets.BROWSER_USER_AGENT }}
@@ -38,4 +39,3 @@ jobs:
           TEMP_MAIL: ${{ secrets.TEMP_MAIL }}
         run: |
           python cursor_pro_keep_alive.py
-          
