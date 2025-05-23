@@ -34,13 +34,6 @@ jobs:
           PYTHONUTF8: 1
 
       - name: Run
-        env:
-          BROWSER_HEADLESS: ${{ secrets.BROWSER_HEADLESS }}
-          BROWSER_USER_AGENT: ${{ secrets.BROWSER_USER_AGENT }}
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
-          TEMP_MAIL_EPIN: ${{ secrets.TEMP_MAIL_EPIN }}
-          TEMP_MAIL_EXT: ${{ secrets.TEMP_MAIL_EXT }}
-          DOMAIN: ${{ secrets.DOMAIN }}
-          TEMP_MAIL: ${{ secrets.TEMP_MAIL }}
         run: |
+          echo "run ${{ secrets.DOMAIN }}"
           python cursor_pro_keep_alive.py
