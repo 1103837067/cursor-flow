@@ -419,12 +419,7 @@ def get_user_agent():
         return None
 
 
-def check_cursor_version():
-    """Check cursor version"""
-    pkg_path, main_path = patch_cursor_get_machine_id.get_cursor_paths()
-    with open(pkg_path, "r", encoding="utf-8") as f:
-        version = json.load(f)["version"]
-    return patch_cursor_get_machine_id.version_check(version, min_version="0.45.0")
+
 
 
 def reset_machine_id(greater_than_0_45):
@@ -445,7 +440,6 @@ if __name__ == "__main__":
     print("\n")
     language.select_language_prompt()
     
-    greater_than_0_45 = check_cursor_version()
     browser_manager = None
     try:
         logging.info(get_translation("initializing_program"))
